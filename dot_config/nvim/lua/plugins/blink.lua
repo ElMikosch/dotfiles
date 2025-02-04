@@ -1,7 +1,15 @@
 return {
 	{
 		"saghen/blink.cmp",
-		dependencies = "rafamadriz/friendly-snippets",
+		dependencies = {
+			"rafamadriz/friendly-snippets",
+			{
+				"saghen/blink.compat",
+				optional = true, -- make optional so it's only enabled if any extras need it
+				opts = {},
+				version = "*",
+			},
+		},
 		opts_extend = {
 			"sources.completion.enabled_providers",
 			"sources.compat",
