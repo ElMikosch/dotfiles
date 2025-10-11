@@ -1,0 +1,8 @@
+theme = Vague
+font-family = JetBrainsMono Nerd Font
+window-decoration = false
+window-theme = ghostty
+gtk-tabs-location = hidden
+shell-integration = bash
+shell-integration-features = no-cursor,sudo,no-title
+font-size = 16
