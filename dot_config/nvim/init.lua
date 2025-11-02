@@ -90,6 +90,8 @@ vim.lsp.enable({
 	"copilot",
 	"basedpyright",
 	"zls",
+	"clangd",
+	"gdscript",
 })
 
 require("conform").setup({
